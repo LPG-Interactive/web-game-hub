@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="icon" type="image/png" href="favicon.png">
+<title>Web Game Hub</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    min-height: 100vh;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+  #buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  button, a.button-link {
+    background: #444;
+    border: none;
+    padding: 12px 18px;
+    color: #eee;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    transition: background 0.3s;
+  }
+  button:hover, a.button-link:hover {
+    background: #666;
+  }
+  footer {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #777;
+  }
+</style>
+</head>
+<body>
+  <h1>Web Game Hub</h1>
+  <div id="buttons">
+    <a href="typing/index.html" target="_blank" class="button-link">Typing Speed</a>
+    <a href="memory/index.html" target="_blank" class="button-link">Memory</a>
+    <a href="reaction/index.html" target="_blank" class="button-link">Reaction Time</a>
+    <a href="avoid/index.html" target="_blank" class="button-link">Avoid the Blocks</a>
+    <a href="roguelike/index.html" target="_blank" class="button-link">Roguelike Concept</a>
+    <a href="flappy/index.html" target="_blank" class="button-link">Flappy Cube</a>
+    <button class="button-link" onclick="alert('ts was broken af 🥀 so i nuked it lol')">Breakout</button>
+    <a href="pong/index.html" target="_blank" class="button-link">Pong</a>
+    <a href="platformer/index.html" target="_blank" class="button-link">Platformer Concept</a>
+    <a href="tetris/index.html" target="_blank" class="button-link">Tetris</a>
+    <a href="snake/index.html" target="_blank" class="button-link">Snake</a>
+    <a href="2048/index.html" target="_blank" class="button-link">2048</a>
+  </div>
+  <a href="https://github.com/LPG-Interactive/game-hub" target="_blank" rel="noopener" class="button-link">Visit GitHub Repo</a>
+  <footer>
+    <p>© 2025 LPG-Interactive - Developed with ❤️ by Nico :)</p>
+  </footer>
+</body>
+</html>

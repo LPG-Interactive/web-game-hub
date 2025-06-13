@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+#screen {
+  width: 300px;
+  height: 150px;
+  background: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 2rem 0;
+  border: 2px solid #888;
+  user-select: none;
+}
+
+#screen.ready {
+  background: #f00;
+}
+
+#screen.go {
+  background: #0f0;
+  color: #000;
+}

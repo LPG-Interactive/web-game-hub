@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <title>Typing Speed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Typing Speed</h1>
+  <div id="language-select">
+    <label for="lang">Choose wordlist language:</label>
+    <select id="lang">
+      <option value="en">English</option>
+      <option value="es">Español</option>
+    </select>
+    <button id="start-btn">Start</button>
+  </div>
+  <div id="game-area" style="display:none;">
+    <p id="word"></p>
+    <input type="text" id="input" autocomplete="off" />
+    <p id="stats">Words: 0 | Time: 0s | WPM: 0</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

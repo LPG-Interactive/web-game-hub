@@ -1,2 +1,2 @@
-# game-hub
-A minimalist gaming hub made in 2 hours (maybe less)!
+# web-game-hub
+A minimalist gaming hub made in approximately 2 hours!

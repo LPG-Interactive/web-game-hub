@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background: #000;
+  color: #0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+#word {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+#input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  background: #111;
+  color: #0f0;
+  border-bottom: 2px solid #0f0;
+}
+
+#stats {
+  margin-top: 1rem;
+  font-size: 1rem;
+}

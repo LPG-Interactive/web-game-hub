@@ -1,0 +1,16 @@
+body {
+  font-family: monospace;
+  background: #000;
+  color: #0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+#map {
+  line-height: 1.2;
+  font-size: 1.2rem;
+  white-space: pre;
+  margin: 1rem 0;
+}
